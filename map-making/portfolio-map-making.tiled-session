@@ -7,7 +7,24 @@
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "Day-BuildingTIle.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "Day-Tile.tsx": {
+            "scaleInDock": 0.777,
+            "scaleInEditor": 1.06
+        },
+        "main-map.tmx": {
+            "scale": 0.4579,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1712.1642279973798,
+                "y": 761.0832059401617
+            }
+        }
     },
+    "last.externalTilesetPath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/map-making",
     "last.imagePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/src/assets/Sprites",
     "map.height": 40,
     "map.lastUsedFormat": "tmx",
@@ -16,6 +33,10 @@
     ],
     "project": "portfolio-map-making.tiled-project",
     "recentFiles": [
+        "Day-Tile.tsx",
+        "main-map.tmx",
+        "Day-BuildingTIle.tsx"
     ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"
 }
