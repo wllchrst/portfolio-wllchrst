@@ -24,9 +24,11 @@
             }
         }
     },
+    "last.exportedFilePath": "C:/Users/LM23-2/Downloads",
     "last.externalTilesetPath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/map-making",
     "last.imagePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/src/assets/Sprites",
     "map.height": 40,
+    "map.lastUsedExportFilter": "JavaScript map files (*.js)",
     "map.lastUsedFormat": "tmx",
     "map.width": 80,
     "openFiles": [
