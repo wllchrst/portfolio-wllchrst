@@ -30,6 +30,8 @@ export default class Scene extends Phaser.Scene {
       "PC Computer - Omori - Faraway Town Buildings Day"
     );
 
+    if (tileset == null) return;
+
     const layerNames = [
       "Ground",
       "Tree",
