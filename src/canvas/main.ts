@@ -17,8 +17,8 @@ export class Main {
 
     this.config = {
       type: Phaser.AUTO,
-      width: 800,
-      height: 600,
+      width: 2560,
+      height: 1280,
       scene: this.scene,
     };
 
