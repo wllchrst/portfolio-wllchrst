@@ -5,14 +5,8 @@ export default class Character {
 
   constructor() {
     this.main = Main.getInstance();
-    this.preload();
-    this.create();
     this.update();
   }
-
-  preload() {}
-
-  create() {}
 
   update() {}
 }
