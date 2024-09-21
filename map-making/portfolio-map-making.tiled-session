@@ -16,28 +16,34 @@
             "scaleInEditor": 1.06
         },
         "main-map.tmx": {
-            "scale": 0.4579,
-            "selectedLayer": 0,
+            "scale": 1.0405,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 1712.1642279973798,
-                "y": 761.0832059401617
+                "x": 1760.6919750120135,
+                "y": 643.4406535319558
             }
+        },
+        "main-map.tmx#PC Computer - Omori - Faraway Town Buildings Day": {
+            "scaleInDock": 1
+        },
+        "main-map.tmx#PC Computer - Omori - Faraway Town Exterior Day": {
+            "scaleInDock": 1
         }
     },
-    "last.exportedFilePath": "C:/Users/LM23-2/Downloads",
+    "last.exportedFilePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/public/Sprites",
     "last.externalTilesetPath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/map-making",
-    "last.imagePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/src/assets/Sprites",
+    "last.imagePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/public/Sprites",
     "map.height": 40,
-    "map.lastUsedExportFilter": "JavaScript map files (*.js)",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
     "map.lastUsedFormat": "tmx",
     "map.width": 80,
     "openFiles": [
     ],
     "project": "portfolio-map-making.tiled-project",
     "recentFiles": [
+        "Day-BuildingTIle.tsx",
         "Day-Tile.tsx",
-        "main-map.tmx",
-        "Day-BuildingTIle.tsx"
+        "main-map.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"
