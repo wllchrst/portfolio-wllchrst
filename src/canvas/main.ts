@@ -20,6 +20,16 @@ export class Main {
       width: 2560,
       height: 1280,
       scene: this.scene,
+      fps: {
+        limit: 30,
+      },
+      physics: {
+        default: "arcade", // Enable arcade physics
+        arcade: {
+          gravity: { y: 0, x: 0 }, // Set gravity if needed
+          debug: false, // Optionally enable debug mode
+        },
+      },
     };
 
     this.game = new Phaser.Game(this.config);
