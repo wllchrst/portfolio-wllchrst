@@ -1,0 +1,21 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+    },
+    "last.imagePath": "/Users/williamchristian/Documents/Projects/portfolio-wllchrst/src/assets/Sprites",
+    "map.height": 40,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 80,
+    "openFiles": [
+    ],
+    "project": "portfolio-map-making.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
