@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "main-map.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
         "Day-BuildingTIle.tsx": {
@@ -13,14 +14,14 @@
         },
         "Day-Tile.tsx": {
             "scaleInDock": 0.777,
-            "scaleInEditor": 1.06
+            "scaleInEditor": 1
         },
         "main-map.tmx": {
-            "scale": 1.0405,
-            "selectedLayer": 5,
+            "scale": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 1760.6919750120135,
-                "y": 643.4406535319558
+                "x": 180.5,
+                "y": 710.5
             }
         },
         "main-map.tmx#PC Computer - Omori - Faraway Town Buildings Day": {
@@ -38,6 +39,9 @@
     "map.lastUsedFormat": "tmx",
     "map.width": 80,
     "openFiles": [
+        "Day-BuildingTIle.tsx",
+        "main-map.tmx",
+        "Day-Tile.tsx"
     ],
     "project": "portfolio-map-making.tiled-project",
     "recentFiles": [
