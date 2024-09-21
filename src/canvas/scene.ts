@@ -1,6 +1,11 @@
+import { Listener } from "./listener";
+import MainCharacter from "./object/main-character";
+import Setting from "./tools/setting";
+
 export default class Scene extends Phaser.Scene {
-  aubrey: Phaser.Types.Physics.Arcade.SpriteWithDynamicBody | null = null;
   cursors: Phaser.Types.Input.Keyboard.CursorKeys | null = null;
+  mainCharacter: MainCharacter | null = null;
+
   constructor() {
     super();
   }
@@ -10,6 +15,7 @@ export default class Scene extends Phaser.Scene {
       "aubrey",
       "../../public/Sprites/aubrey/walking/forward/0.png"
     );
+
     this.load.image(
       "PC Computer - Omori - Faraway Town Buildings Day",
       "../../public/Sprites/PC Computer - Omori - Faraway Town Exterior Day.png"
@@ -24,6 +30,8 @@ export default class Scene extends Phaser.Scene {
       "tilemap",
       "../../public/Sprites/tilemap-data.json"
     );
+
+    new Listener();
   }
 
   create() {
@@ -52,10 +60,11 @@ export default class Scene extends Phaser.Scene {
       map.createLayer(name, tileset);
     }
 
-    this.aubrey = this.physics.add.sprite(200, 200, "aubrey");
+    const mainCharacterSprite = this.physics.add.sprite(200, 200, "aubrey");
+    this.mainCharacter = new MainCharacter(mainCharacterSprite);
 
     this.cameras.main.setBounds(0, 0, 2560, 1280);
-    this.cameras.main.startFollow(this.aubrey);
+    this.cameras.main.startFollow(this.mainCharacter.character);
     this.cameras.main.setZoom(1.5);
 
     if (this.input.keyboard == null) return;
@@ -64,10 +73,6 @@ export default class Scene extends Phaser.Scene {
   }
 
   update() {
-    if (this.aubrey == null) return;
-    else if (this.cursors == null) return;
-
-    this.aubrey.x += 5;
-    console.log("here");
+    if (this.mainCharacter != null) this.mainCharacter.update();
   }
 }
